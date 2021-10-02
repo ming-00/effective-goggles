@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3CDE9324B61694000904B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDE9224B61694000904B3 /* AppDelegate.swift */; };
+		CE3CDE9A24B61694000904B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CDE9824B61694000904B3 /* Main.storyboard */; };
+		CE3CDE9C24B61695000904B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3CDE9B24B61695000904B3 /* Assets.xcassets */; };
+		CE3CDE9F24B61695000904B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CDE9D24B61695000904B3 /* LaunchScreen.storyboard */; };
+		CE3CDEAA24B61B47000904B3 /* CBLiquidTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEA924B61B47000904B3 /* CBLiquidTabBar.swift */; };
+		CE3CDEAC24B61EE2000904B3 /* CBLiquidTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEAB24B61EE2000904B3 /* CBLiquidTabBarController.swift */; };
+		CE3CDEAE24B6203E000904B3 /* CBLiquidTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEAD24B6203E000904B3 /* CBLiquidTabBarButton.swift */; };
+		CE3CDEB024B620BC000904B3 /* CBLiquidLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEAF24B620BC000904B3 /* CBLiquidLayerAnimation.swift */; };
+		CE3CDEB324B6218D000904B3 /* CGPoint+Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEB224B6218D000904B3 /* CGPoint+Offset.swift */; };
+		CE3CDEB524B624A0000904B3 /* CBLiquidButtonsAnimation.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEB424B624A0000904B3 /* CBLiquidButtonsAnimation.swift.swift */; };
+		CE3CDEB724B624D1000904B3 /* CBLiquidAnimationParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEB624B624D1000904B3 /* CBLiquidAnimationParams.swift */; };
+		CE3CDEB924B62ED6000904B3 /* CBSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEB824B62ED6000904B3 /* CBSampleViewController.swift */; };
+		CE3CDEBB24B64539000904B3 /* CAMediaTimingFunction+custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CDEBA24B64539000904B3 /* CAMediaTimingFunction+custom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3CDE8F24B61694000904B3 /* LiquidTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3CDE9224B61694000904B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3CDE9924B61694000904B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3CDE9B24B61695000904B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3CDE9E24B61695000904B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3CDEA024B61695000904B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3CDEA924B61B47000904B3 /* CBLiquidTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLiquidTabBar.swift; sourceTree = "<group>"; };
+		CE3CDEAB24B61EE2000904B3 /* CBLiquidTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLiquidTabBarController.swift; sourceTree = "<group>"; };
+		CE3CDEAD24B6203E000904B3 /* CBLiquidTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLiquidTabBarButton.swift; sourceTree = "<group>"; };
+		CE3CDEAF24B620BC000904B3 /* CBLiquidLayerAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLiquidLayerAnimation.swift; sourceTree = "<group>"; };
+		CE3CDEB224B6218D000904B3 /* CGPoint+Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Offset.swift"; sourceTree = "<group>"; };
+		CE3CDEB424B624A0000904B3 /* CBLiquidButtonsAnimation.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLiquidButtonsAnimation.swift.swift; sourceTree = "<group>"; };
+		CE3CDEB624B624D1000904B3 /* CBLiquidAnimationParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBLiquidAnimationParams.swift; sourceTree = "<group>"; };
+		CE3CDEB824B62ED6000904B3 /* CBSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSampleViewController.swift; sourceTree = "<group>"; };
+		CE3CDEBA24B64539000904B3 /* CAMediaTimingFunction+custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+custom.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3CDE8C24B61694000904B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3CDE8624B61694000904B3 = {
+			isa = PBXGroup;
+			children = (
+				CE3CDEA724B61A6B000904B3 /* Classes */,
+				CE3CDEA624B61A53000904B3 /* Example */,
+				CE3CDE9024B61694000904B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3CDE9024B61694000904B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CDE8F24B61694000904B3 /* LiquidTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3CDEA624B61A53000904B3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CDE9224B61694000904B3 /* AppDelegate.swift */,
+				CE3CDE9824B61694000904B3 /* Main.storyboard */,
+				CE3CDE9B24B61695000904B3 /* Assets.xcassets */,
+				CE3CDE9D24B61695000904B3 /* LaunchScreen.storyboard */,
+				CE3CDEA024B61695000904B3 /* Info.plist */,
+				CE3CDEB824B62ED6000904B3 /* CBSampleViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CE3CDEA724B61A6B000904B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CDEB124B62155000904B3 /* Helper */,
+				CE3CDEA924B61B47000904B3 /* CBLiquidTabBar.swift */,
+				CE3CDEAB24B61EE2000904B3 /* CBLiquidTabBarController.swift */,
+				CE3CDEAD24B6203E000904B3 /* CBLiquidTabBarButton.swift */,
+				CE3CDEB624B624D1000904B3 /* CBLiquidAnimationParams.swift */,
+				CE3CDEAF24B620BC000904B3 /* CBLiquidLayerAnimation.swift */,
+				CE3CDEB424B624A0000904B3 /* CBLiquidButtonsAnimation.swift.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE3CDEB124B62155000904B3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CDEB224B6218D000904B3 /* CGPoint+Offset.swift */,
+				CE3CDEBA24B64539000904B3 /* CAMediaTimingFunction+custom.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3CDE8E24B61694000904B3 /* LiquidTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3CDEA324B61695000904B3 /* Build configuration list for PBXNativeTarget "LiquidTabBar" */;
+			buildPhases = (
+				CE3CDE8B24B61694000904B3 /* Sources */,
+				CE3CDE8C24B61694000904B3 /* Frameworks */,
+				CE3CDE8D24B61694000904B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidTabBar;
+			productName = LiquidTabBar;
+			productReference = CE3CDE8F24B61694000904B3 /* LiquidTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3CDE8724B61694000904B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Cuberto;
+				TargetAttributes = {
+					CE3CDE8E24B61694000904B3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = CE3CDE8A24B61694000904B3 /* Build configuration list for PBXProject "LiquidTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3CDE8624B61694000904B3;
+			productRefGroup = CE3CDE9024B61694000904B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3CDE8E24B61694000904B3 /* LiquidTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3CDE8D24B61694000904B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CDE9F24B61695000904B3 /* LaunchScreen.storyboard in Resources */,
+				CE3CDE9C24B61695000904B3 /* Assets.xcassets in Resources */,
+				CE3CDE9A24B61694000904B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3CDE8B24B61694000904B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CDEAE24B6203E000904B3 /* CBLiquidTabBarButton.swift in Sources */,
+				CE3CDEB024B620BC000904B3 /* CBLiquidLayerAnimation.swift in Sources */,
+				CE3CDEAA24B61B47000904B3 /* CBLiquidTabBar.swift in Sources */,
+				CE3CDEBB24B64539000904B3 /* CAMediaTimingFunction+custom.swift in Sources */,
+				CE3CDEAC24B61EE2000904B3 /* CBLiquidTabBarController.swift in Sources */,
+				CE3CDEB324B6218D000904B3 /* CGPoint+Offset.swift in Sources */,
+				CE3CDE9324B61694000904B3 /* AppDelegate.swift in Sources */,
+				CE3CDEB724B624D1000904B3 /* CBLiquidAnimationParams.swift in Sources */,
+				CE3CDEB524B624A0000904B3 /* CBLiquidButtonsAnimation.swift.swift in Sources */,
+				CE3CDEB924B62ED6000904B3 /* CBSampleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3CDE9824B61694000904B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3CDE9924B61694000904B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE3CDE9D24B61695000904B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3CDE9E24B61695000904B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3CDEA124B61695000904B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE3CDEA224B61695000904B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3CDEA424B61695000904B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SK7A63GXF6;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuberto.components.LiquidTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE3CDEA524B61695000904B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SK7A63GXF6;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuberto.components.LiquidTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3CDE8A24B61694000904B3 /* Build configuration list for PBXProject "LiquidTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CDEA124B61695000904B3 /* Debug */,
+				CE3CDEA224B61695000904B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3CDEA324B61695000904B3 /* Build configuration list for PBXNativeTarget "LiquidTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CDEA424B61695000904B3 /* Debug */,
+				CE3CDEA524B61695000904B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3CDE8724B61694000904B3 /* Project object */;
+}

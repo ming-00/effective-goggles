@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oxc-kw-831">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bookmarks-->
+        <scene sceneID="FUD-R2-73z">
+            <objects>
+                <viewController title="Bookmarks" id="iLF-OB-Zyk" customClass="CBSampleViewController" customModule="LiquidTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1z7-RL-sRN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gyT-dV-pq4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bookmarks" image="tab2" selectedImage="tab2-selected" id="r7e-Sm-FR8" customClass="CBLiquidTabBarItem" customModule="LiquidTabBar" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barAnimationColor">
+                                <color key="value" name="BarBgBlue"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Dv-kL-dd0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="-408"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="fOQ-3A-m61">
+            <objects>
+                <viewController title="Home" id="lde-gc-LSf" customClass="CBSampleViewController" customModule="LiquidTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o2K-CW-U70">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="8hc-Kj-8fC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="tab1" selectedImage="tab1-selected" id="kBP-bB-unE" customClass="CBLiquidTabBarItem" customModule="LiquidTabBar" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barAnimationColor">
+                                <color key="value" name="BarBgPink"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8Q-ic-3AE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="-1055"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FX5-eI-2Bw">
+            <objects>
+                <tabBarController id="Oxc-kw-831" customClass="CBTabBarController" customModule="LiquidTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dOr-4g-gaP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lde-gc-LSf" kind="relationship" relationship="viewControllers" id="VTp-KC-AK1"/>
+                        <segue destination="iLF-OB-Zyk" kind="relationship" relationship="viewControllers" id="4iI-AE-1BG"/>
+                        <segue destination="ezz-t0-wSQ" kind="relationship" relationship="viewControllers" id="tjg-Db-x09"/>
+                        <segue destination="SnA-WT-ogn" kind="relationship" relationship="viewControllers" id="hIn-UE-7He"/>
+                        <segue destination="tHQ-ef-Svb" kind="relationship" relationship="viewControllers" id="cqi-r1-WZk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a0X-tA-MwP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988" y="-732"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="sxB-TG-LDt">
+            <objects>
+                <viewController title="Profile" id="tHQ-ef-Svb" customClass="CBSampleViewController" customModule="LiquidTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8te-gI-Odl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fg1-Nu-t1r"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="tab5" selectedImage="tab5-selected" id="g3z-nT-RCc" customClass="CBLiquidTabBarItem" customModule="LiquidTabBar" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barAnimationColor">
+                                <color key="value" name="BarBgPink"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7M1-6X-KGK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2010" y="-1069"/>
+        </scene>
+        <!--Favorite-->
+        <scene sceneID="3T5-Xj-JrF">
+            <objects>
+                <viewController title="Favorite" id="SnA-WT-ogn" customClass="CBSampleViewController" customModule="LiquidTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vdR-YG-9b4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Krm-vs-eOB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorite" image="tab4" selectedImage="tab4-selected" id="dDD-c3-8Ip" customClass="CBLiquidTabBarItem" customModule="LiquidTabBar" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barAnimationColor">
+                                <color key="value" name="BarBgBlue"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cMV-dB-Kqt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2010" y="-340"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="cZU-bj-f9Z">
+            <objects>
+                <viewController title="Feed" id="ezz-t0-wSQ" customClass="CBSampleViewController" customModule="LiquidTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LW4-gh-caf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AxC-1H-veo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feed" image="tab3" selectedImage="tab3-selected" id="2WZ-6X-dCF" customClass="CBLiquidTabBarItem" customModule="LiquidTabBar" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barAnimationColor">
+                                <color key="value" name="BarBgPink"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJt-wI-nwl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab1" width="22" height="22"/>
+        <image name="tab1-selected" width="22" height="22"/>
+        <image name="tab2" width="15" height="21"/>
+        <image name="tab2-selected" width="15" height="21"/>
+        <image name="tab3" width="23" height="23"/>
+        <image name="tab3-selected" width="23" height="23"/>
+        <image name="tab4" width="22" height="20"/>
+        <image name="tab4-selected" width="22" height="20"/>
+        <image name="tab5" width="20" height="21"/>
+        <image name="tab5-selected" width="20" height="21"/>
+        <namedColor name="BarBgBlue">
+            <color red="0.75294117647058822" green="0.90588235294117647" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BarBgPink">
+            <color red="1" green="0.85490196078431369" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,19 @@
+.my-view {
+    height:100%;
+}
+
+.my-layout {
+    height:100%;
+}
+
+.my-container {
+    padding:0 20px;
+
+    @media (min-width:$screen-sm-min) {
+        padding:0 30px;
+    }
+
+    @media (min-width:$screen-lg-min) {
+        padding:0 60px;
+    }
+}

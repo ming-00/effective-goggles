@@ -1,0 +1,34 @@
+.my-btn {
+    display:inline;
+
+    &_dummy {
+        position:relative;
+        display:inline-block;
+        height:auto;
+        margin:0;
+        padding:0;
+
+        color:inherit;
+        background:none;
+        border:0;
+        border-radius:0;
+        outline:none !important;
+
+        font-family:inherit;
+        font-size:inherit;
+        font-weight:inherit;
+        letter-spacing:inherit;
+        line-height:inherit;
+        text-align:inherit;
+        text-transform:inherit;
+        text-indent:inherit;
+
+        &:hover, &:focus {
+            text-decoration:none;
+        }
+    }
+
+    &_flat {
+        @extend .my-btn_dummy;
+    }
+}

@@ -1,0 +1,18 @@
+extends /_includes/layout
+
+block title
+    title #{__.demo.meta.title}
+
+block content
+    +navbar
+
+    .my-view#view-main
+        .my-layout(role="main")
+
+            section.my-component
+                .my-component-content
+                    .my-component-container
+                        .my-component-header
+                            h1 #{__.demo.header}
+                        .my-component-text.-lg
+                            p #{__.demo.text}

@@ -1,0 +1,45 @@
+/*
+    Example component
+
+    We use a simple and slightly modified BEM syntax.
+
+    .pr-block .pr-block-element .-modifier
+
+    pr - short prefix from the project name. Example: for cuberto we use cb-
+
+*/
+.my-component {
+    $root:&; // always save contexts for use in complex rules
+
+    /* container extend global container, see wraps.scss */
+    &-container {
+        @extend .my-container;
+    }
+
+    /* content sets top and bottom margins of block, or align content by y-axis */
+    &-content {
+        padding:80px 0;
+
+        text-align:center;
+
+        @media (min-width:$screen-lg-min) {
+            padding:120px 0;
+        }
+    }
+
+    &-header {
+        h1 {
+            font-size:2vw;
+        }
+    }
+
+    &-text {
+        margin:0.5vw 0 0 0;
+
+        font-size:1.2vw;
+
+        &.-lg {
+            font-size:1.4vw;
+        }
+    }
+}

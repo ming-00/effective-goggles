@@ -1,0 +1,8 @@
+/.env
+/.idea/
+/nbproject/
+/node_modules/
+/bower_components/
+/dist/
+/tmp/
+/src/scss/generated
